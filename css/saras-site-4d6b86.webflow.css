@@ -325,7 +325,7 @@ p {
 
 .footer.center {
   text-align: center;
-  background-color: #383838;
+  background-color: #010028;
   border-top: 1px solid #dbdbdb;
 }
 
@@ -437,6 +437,10 @@ p {
 .image-2 {
   width: 132px;
   height: 40px;
+}
+
+.container {
+  text-align: right;
 }
 
 @media screen and (max-width: 991px) {
