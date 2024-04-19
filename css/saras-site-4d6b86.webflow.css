@@ -229,7 +229,7 @@ p {
   text-transform: uppercase;
   margin-bottom: 30px;
   font-size: 60px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 60px;
 }
 
@@ -239,7 +239,7 @@ p {
   text-transform: uppercase;
   margin-bottom: 40px;
   font-size: 25px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 25px;
 }
 
@@ -381,6 +381,8 @@ p {
 }
 
 .fullwidth-image {
+  border: 1px solid #000;
+  border-radius: 11px;
   width: 1300%;
   margin-bottom: 20px;
 }
@@ -441,6 +443,17 @@ p {
 
 .container {
   text-align: right;
+}
+
+.column {
+  text-align: center;
+}
+
+.columns {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 @media screen and (max-width: 991px) {
