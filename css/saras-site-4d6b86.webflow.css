@@ -288,6 +288,10 @@ p {
   color: #fff;
 }
 
+.section-heading.centered.white-copy {
+  color: #676770;
+}
+
 .section-subheading.center {
   color: #010028;
   text-align: center;
@@ -454,6 +458,24 @@ p {
   justify-content: center;
   align-items: center;
   display: flex;
+}
+
+.about-me {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.about-me.center {
+  text-align: center;
+  background-color: #010028;
+  border-top: 1px solid #dbdbdb;
+}
+
+.grey-text {
+  color: #676770;
+  text-align: left;
+  margin-bottom: 20px;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 991px) {
